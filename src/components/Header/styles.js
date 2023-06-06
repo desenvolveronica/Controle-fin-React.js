@@ -14,4 +14,5 @@ export const Header = styled.h1`
 export const Title = styled.div`
     padding-top: 20px;
     color: #fff;
+    font-size: 20px
 `;

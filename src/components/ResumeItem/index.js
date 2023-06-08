@@ -1,11 +1,16 @@
-import React from 'react'
+import React from "react";
+import * as C from "./styles";
 
-const ResumeItem = () => {
+const ResumeItem = ({ title, Icon }) => {
   return (
-    <div>
-      ResumeItem
-    </div>
-  )
-}
+    <C.Container>
+      <C.Header>
+        <C.HeaderTitle>{title}</C.HeaderTitle>
+        <Icon />
+      </C.Header>
+      <C.Total>100</C.Total>
+    </C.Container>
+  );
+};
 
-export default ResumeItem
+export default ResumeItem;

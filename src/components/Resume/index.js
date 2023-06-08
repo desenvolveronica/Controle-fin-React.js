@@ -9,9 +9,9 @@ import {
 
 const Resume = () => {
   return <R.Container>
-    <ResumeItem title="Entrada" Icon={FaRegArrowAltCircleUp}/>
-    <ResumeItem title="Saída" Icon={FaRegArrowAltCircleDown}/>
-    <ResumeItem title="Total" Icon={FaDollarSign}/>
+    <ResumeItem title="Entrada" Icon={FaRegArrowAltCircleUp} value="100"/>
+    <ResumeItem title="Saída" Icon={FaRegArrowAltCircleDown} value="100"/>
+    <ResumeItem title="Total" Icon={FaDollarSign} value="100"/>
   </R.Container>
 
 }

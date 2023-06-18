@@ -12,7 +12,7 @@ export const Header = styled.h1`
 `;
 
 export const Title = styled.div`
-    padding-top: 20px;
+    padding-top: 2px;
     color: #fff;
-    font-size: 20px
+    font-size: 30px
 `;
